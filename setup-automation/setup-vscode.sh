@@ -37,11 +37,6 @@ dnf install unzip nano git podman -y
 echo "%rhel ALL=(ALL:ALL) NOPASSWD:ALL" > /etc/sudoers.d/rhel_sudoers
 chmod 440 /etc/sudoers.d/rhel_sudoers
 #!/bin/bash
-## Wait for Instruqt VM to finish booting
-while [ ! -f /opt/instruqt/bootstrap/host-bootstrap-completed ]; do
-    echo "Waiting for Instruqt to finish booting the VM"
-    sleep 1
-done
 
 ## Set up error handling and DNS resolution
 set -euxo pipefail
