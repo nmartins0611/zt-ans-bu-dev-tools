@@ -1,7 +1,7 @@
 = Welcome to the Ansible Development Tools Workshop
-:toc:
+:notoc:
 :toc-title: Table of Contents
-:sectnums:
+:nosectnums:
 :icons: font
 
 _A brief introduction to the workshop, including tips for the lab environment._
