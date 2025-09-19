@@ -92,4 +92,3 @@ echo 'export PATH=$HOME/.local/bin:$PATH' >> /etc/profile
 pip3  install --upgrade --force-reinstall ansible-dev-tools
 systemctl start code-server
 sleep 15
-systemctl restart code-server ## force update tools
