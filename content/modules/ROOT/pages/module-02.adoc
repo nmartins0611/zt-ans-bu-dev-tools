@@ -50,7 +50,7 @@ image::Apr-29-2025_at_13.51.07-image.png[Creating a Collection project, opts="bo
 * **Collection:** `mycollection`
 * **Init path:**
 +
-[source,text]
+[source,sh,role=execute]
 ----
 /home/rhel/myansibleproject/collections/ansible_collections/mynamespace/mycollection
 ----
@@ -92,7 +92,7 @@ image::Apr-29-2025_at_13.57.13-image.png[VS Code Explorer icon, opts="border"]
 
 .   **Open the collection folder** by clicking the **(1) Open Folder** button. In the path field, paste the following path **(2)** and click the blue **OK** button **(3)**.
 +
-[source,text]
+[source,sh,role=execute]
 ----
 /home/rhel/myansibleproject/collections/ansible_collections/mynamespace/mycollection/
 ----
