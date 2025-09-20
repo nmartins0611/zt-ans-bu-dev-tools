@@ -37,8 +37,9 @@ image::image.png[Ansible icon in the VS Code sidebar, opts="border"]
 +
 image::Apr-29-2025_at_13.49.45-image.png[Collapsing the Lightspeed sections, opts="border"]
 
-[IMPORTANT] The developement tools might indicate they have been updated and you need to reload the VS Code extentions. This can be done by click on reload
+[IMPORTANT]
 ====
+The developement tools might indicate they have been updated and you need to reload the VS Code extentions. This can be done by click on reload
 
 === Task 2: Create a Collection Project
 
